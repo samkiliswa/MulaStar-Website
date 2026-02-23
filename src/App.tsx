@@ -53,6 +53,8 @@ const Header = () => (
         <a 
           className="bg-primary text-white text-sm font-bold px-5 py-2 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center" 
           href="https://mulastar.com/register.php?ref=samkiliswa"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Sign Up
         </a>
@@ -83,6 +85,8 @@ const Hero = () => (
           <a 
             className="bg-primary text-white text-lg font-bold h-14 px-8 rounded-xl shadow-lg shadow-primary/25 flex items-center justify-center gap-2 hover:scale-105 transition-transform" 
             href="https://mulastar.com/register.php?ref=samkiliswa"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Sign Up MulaStar <ArrowRight className="w-5 h-5" />
           </a>
@@ -195,6 +199,8 @@ const BonusForex = () => (
         <a 
           className="mt-8 bg-white text-primary font-bold py-3 px-6 rounded-xl self-start inline-block hover:bg-slate-100 transition-colors" 
           href="https://mulastar.com/register.php?ref=samkiliswa"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Enroll Now
         </a>
@@ -277,7 +283,12 @@ const AuthInstructions = () => (
           ))}
         </div>
         <div className="mt-8">
-          <a className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg shadow-primary/25 hover:scale-[1.02] transition-all duration-200 active:scale-95" href="https://mulastar.com/register.php?ref=samkiliswa">
+          <a 
+            className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg shadow-primary/25 hover:scale-[1.02] transition-all duration-200 active:scale-95" 
+            href="https://mulastar.com/register.php?ref=samkiliswa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Login MulaStar
             <LogIn className="ml-2 w-5 h-5" />
           </a>
@@ -300,7 +311,12 @@ const AuthInstructions = () => (
           ))}
         </div>
         <div className="mt-8">
-          <a className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg shadow-primary/25 hover:scale-[1.02] transition-all duration-200 active:scale-95" href="https://mulastar.com/register.php?ref=samkiliswa" target="_blank">
+          <a 
+            className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg shadow-primary/25 hover:scale-[1.02] transition-all duration-200 active:scale-95" 
+            href="https://mulastar.com/register.php?ref=samkiliswa" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Register MulaStar
             <UserPlus className="ml-2 w-5 h-5" />
           </a>
@@ -365,7 +381,12 @@ const Testimonials = () => {
           ))}
         </div>
         <div className="mt-12 text-center">
-          <a className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg shadow-primary/25 hover:scale-[1.02] transition-all duration-200 active:scale-95" href="https://mulastar.com/register.php?ref=samkiliswa" target="_blank">
+          <a 
+            className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg shadow-primary/25 hover:scale-[1.02] transition-all duration-200 active:scale-95" 
+            href="https://mulastar.com/register.php?ref=samkiliswa" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Register MulaStar
             <UserPlus className="ml-2 w-5 h-5" />
           </a>
@@ -451,7 +472,12 @@ const ArticleItem = ({ title, content }: { title: string, content: string, key?:
             className="px-6 pb-6 text-slate-600 dark:text-slate-400"
           >
             <p className="mb-6">{content}</p>
-            <a className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-primary rounded-lg shadow-md shadow-primary/20 hover:opacity-90 transition-all" href="https://mulastar.com/register.php?ref=samkiliswa">
+            <a 
+              className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-primary rounded-lg shadow-md shadow-primary/20 hover:opacity-90 transition-all" 
+              href="https://mulastar.com/register.php?ref=samkiliswa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Sign Up MulaStar
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>
